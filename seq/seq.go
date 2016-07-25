@@ -1,7 +1,7 @@
 // Package seq implements functions for well-known sequences like Fibonacci.
 package seq
 
-// FibNth returns nth (from 0th) Fibonaccci sequence number.
+// FibNth returns nth (from 0th) Fibonacci sequence number.
 func FibNth(n int) int {
 	p, q := 0, 1
 	for i := 0; i < n; i++ {
